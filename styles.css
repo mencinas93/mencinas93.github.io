@@ -10,7 +10,22 @@ h1 {
     color: #0066cc;
 }
 
-p{
-    width:50%;
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 800px;
     margin: 0 auto;
+}
+
+
+p{
+    width:48%;
+    margin: 0 auto;
+}
+
+img {
+    width: 48%; /* Adjust the width as needed */
+    max-height: 300px; /* Adjust the height as needed */
 }
