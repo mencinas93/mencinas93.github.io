@@ -26,6 +26,6 @@ p{
 }
 
 img {
-    width: 48%; /* Adjust the width as needed */
+    width: 100; /* Adjust the width as needed */
     max-height: 300px; /* Adjust the height as needed */
 }
