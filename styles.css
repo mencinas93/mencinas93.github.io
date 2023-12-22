@@ -22,7 +22,7 @@ h1:before {
     right: -10px; /* Adjust the spacing from the text */
     bottom: -10px; /* Adjust the spacing from the text */
     left: -10px; /* Adjust the spacing from the text */
-    border: 2px solid #808080; /* Gray border color */
+    border: 4px solid #808080; /* Gray border color */
     border-radius: 50%; /* Creates a circular shape */
     opacity: 0.5; /* Adjust the transparency */
     box-sizing: border-box;
