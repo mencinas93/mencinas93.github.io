@@ -66,3 +66,16 @@ img {
     border-radius: 60px;
     height: auto; /* Maintain aspect ratio */
 }
+
+.testimonials-container {
+    height: 300px; /* Adjust the height as needed */
+    overflow-y: auto; /* Allow vertical scrolling */
+    border: 8px solid yellowgreen;
+    padding: 2%;
+    margin: 20px auto; /* Adjust the margin as needed */
+}
+
+.testimonials-container p {
+    font-style: italic;
+    font-size: 18px;
+}
