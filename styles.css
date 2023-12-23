@@ -39,6 +39,8 @@ h1:before {
 
 
 p{
+    font-weight: bold; /* Make the text bold */
+    font-size: 18px; /* Set the font size to 18 pixels, adjust as needed */
     width:48%;
     margin: 0 auto;
 }
