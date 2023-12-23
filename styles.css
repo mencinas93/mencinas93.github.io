@@ -46,6 +46,6 @@ p{
 img {
     width: 100; /* Adjust the width as needed */
     max-width: 300px; /* Adjust the maximum width as needed */
-    border-radius: 10px;
+    border-radius: 60px;
     height: auto; /* Maintain aspect ratio */
 }
