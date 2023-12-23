@@ -85,3 +85,26 @@ img {
     font-style: italic;
     font-size: 18px;
 }
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.tab {
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #0066cc;
+    border-radius: 8px;
+}
+
+.tab:hover {
+    background-color: #0066cc;
+    color: white;
+}
+
+.tabContent {
+    display: none;
+    margin-top: 20px;
+}

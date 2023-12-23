@@ -30,5 +30,14 @@ function initSlideshow() {
     }
 }
 
+function openTab(tabName) {
+    var tabs = document.getElementsByClassName("tabContent");
+    for (var i = 0; i < tabs.length; i++) {
+        tabs[i].style.display = "none";
+    }
+
+    document.getElementById(tabName).style.display = "block";
+}
+
 // Call the initialization function
 initSlideshow();
