@@ -46,12 +46,18 @@ h1:before {
 }
 
 .slideshow-container {
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .mySlides {
     display: none;
 }
+
+.mySlides img {
+    max-width: 100%; /* Set the maximum width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
 
 p{
     font-weight: bold; /* Make the text bold */
