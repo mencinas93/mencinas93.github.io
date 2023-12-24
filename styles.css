@@ -108,3 +108,27 @@ img {
     display: none;
     margin-top: 20px;
 }
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.product {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+.product p {
+    margin-top: 10px;
+}
